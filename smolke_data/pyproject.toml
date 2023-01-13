@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "smolke-data"
+version = "0.1.0"
+description = ""
+authors = ["Smolke <d.smolczynski1@gmail.com>"]
+readme = "README.md"
+packages = [{include = "smolke_data"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "*"
+coverage = "*"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
