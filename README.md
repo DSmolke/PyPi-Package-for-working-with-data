@@ -1,4 +1,4 @@
-# smolke-data package
+# PyPi Package for working with data
 
 Package provides some basic functionalities for working with data.
 I made it to manage repetitive code in my recent projects.
